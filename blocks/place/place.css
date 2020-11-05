@@ -1,0 +1,27 @@
+.place { 
+    display: grid;
+    justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .place { 
+        justify-items: start;
+        grid-template-columns: 340px 1fr;
+        row-gap: 48px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place { 
+        grid-template-columns: 440px 1fr ;
+        column-gap: 32px;
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    .place { 
+        grid-template-columns: 460px 1fr ;
+        column-gap: 40px;
+    }    
+}

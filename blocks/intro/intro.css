@@ -1,0 +1,28 @@
+.intro {
+    padding-top: 64px;
+    padding-bottom: 66px; 
+    width:calc(100% - 2*16px);
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        padding-top: 88px;
+        padding-bottom: 88px;
+        width:calc(100% - 2*24px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        padding-top: 92px;
+        padding-bottom: 92px;
+        align-self: flex-start;
+        width: calc(100% - 286px + 48px);
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: calc(100% - 442px  + 148px);
+    }        
+}

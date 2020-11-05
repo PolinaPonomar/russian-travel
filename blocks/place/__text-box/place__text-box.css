@@ -1,0 +1,13 @@
+.place__text-box {
+    padding-top: 32px;
+    width: calc( 100% - 2*16px);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .place__text-box {
+        padding-top: 0;
+        width: 100%;
+    }
+}

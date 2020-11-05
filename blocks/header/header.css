@@ -1,0 +1,26 @@
+.header {
+    padding: 16px 0 48px;
+    width: calc(100% - 2*16px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 28px;
+        width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        width: calc(100% - 2*48px);
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding-bottom: 56px;
+    }    
+}
