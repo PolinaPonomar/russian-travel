@@ -9,6 +9,7 @@
 /* блок header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -31,8 +32,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__line/intro__line.css);
-@import url(../blocks/intro/__line-text/intro__line-text.css);
-@import url(../blocks/intro/__line-text/_font-weight/intro__line-text_font-weight_normal.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 /* секция photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -57,6 +57,7 @@
 
 /* блок footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);

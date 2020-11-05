@@ -3,6 +3,7 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 122%;
+        text-decoration: none;
         border-bottom: #FFFFFF solid 1px;
         color: #FFFFFF;
         transition: opasity 0.5s ease-in;

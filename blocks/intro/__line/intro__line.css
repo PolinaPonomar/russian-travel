@@ -1,3 +1,8 @@
 .intro__line {
-    display: flex;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    text-align:left;
+    color: #FFFFFF;
 }
